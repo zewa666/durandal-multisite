@@ -49,7 +49,7 @@ the proper loading via AMD.
 How to build/deploy?
 -------------
 If you care about proper building and deploying scenarios take a look at the [Gulp Durandal Docs][http://durandaljs.com/documentation/Gulp.html].
-In this case you should think about excluding the businesslogic folder from the app folder and setup your gulp task to include the specific implementations
+In this case you should think about moving the businesslogic folder out of the app folder and setup your gulp task to include the specific implementations
 you are deploying.
 
 

@@ -4,10 +4,15 @@ define(function(require) {
   var vm_login_frontend = function() {
     this.login = ko.observable();
     this.pwd = ko.observable();
+
+    this.loginDomain = ko.observable();
+
+    var loginService = require('businesslogic/loginService');
+    this.loginDomain("Login to " + loginService.getDomain());
   };
 
   vm_login_frontend.prototype.performLogin = function() {
-    var loginService = require('businesslogic/loginService');
+
     loginService.performLogin();
   };
 
