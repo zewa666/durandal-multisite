@@ -1,0 +1,8 @@
+{
+  "destination": {
+    "appFolder": "./app",
+    "vmFolder": "viewmodels",
+    "viewFolder": "views",
+    "specFolder": "./test/specs"
+  }
+}
